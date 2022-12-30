@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #DEDEDE;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+body {
+    background-color: #222831;
+    color: #DEDEDE;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navBar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid #393E46;
+}
+
+.mainMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+    gap: 127px;
+    width: 1200px;
+    height: 80px;
+    margin-left: -30px;
+}
+
+.mainMenu li {
+	display: flex;
+    color: #EEEEEE;
+}
+
+a:hover li {
+	color: #FF5398;
+}
+
+.mainMenu .home {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FF8303;
+}
+
+.mainMenu .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 550px;
+    gap: 2px;
+    width: 1000px;
+    height: 60px;
+}
+
+a:hover {
+	color: #FF5398;
+}
+
+.main .img1{
+    position: relative;
+    opacity: 0.5;
+    margin-bottom: -200px;
+    float: right;
+    padding-left: 100px;
+    margin-top: 200px;
+
+}
+
+.main .img2{
+    position: absolute;
+    margin-bottom: -200px;
+    margin-top: 320px;
+    margin-left: 770px;
+}
+
+.main .img3 {
+    margin-top: -130px;
+}
+
+.main .arrowDown {
+    margin-left: 100px;
+    margin-top: -60px;
+}
+
+.main .downCV {
+   background-color: #393E46;
+   color: #EEEEEE;
+   border: #393E46;
+   padding-top: 15px;
+   padding-bottom: 20px;
+   padding-left: 25px;
+   width: 120px;
+   padding-right: 25px;
+   border-radius: 12px;
+}
+
+a:hover .downCV{
+	color: #FF5398;
+}
+
+.main .downCV .downloadImg{
+    height: 15px;
+}
+
+.main .bord {
+    margin-top: 180px;
+    margin-left: 200px;
+}
+
+.sect1 {
+    margin-top: 80px;
+}
+
+.sect1 .img4 {
+    position: relative;
+    float: right;
+    opacity: 0.5;
+    width: 600px;
+    height: 400px;
+}
+
+.sect1 .img5 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 700px;
+}
+
+a:hover #recentWorkks {
+    color: #FF5398;
+}
+
+.about h2 {
+    margin-top: 50px;
+    font-size: 64px;
+    color: #00ADB5;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.about .icon1 {
+    margin-left: 310px;
+    margin-bottom: -115px;
+    height: 80px;
+}
+
+.text {
+    color: #EEEEEE;
+    font-weight: 300;
+    font-size: 17px;
+    opacity: 0.8;
+}
+
+a:hover {
+	color: #FF5398;
+}
+
+.wallets a:hover {
+    text-decoration: none;
+}
+
+.text .Twocents {
+    border-bottom: 2px solid #905dff;
+}
+
+.text .flance {
+    border-bottom: 2px solid #ff8788;
+}
+
+a:hover::after {
+    color: #DEDEDE;
+}
+
+.about .aboutArrow {
+    height: 120px;
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.recent {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.recent h2 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.recent .coloredWork {
+    color: #00ADB5;
+}
+
+.recent .imgD {
+    position: relative;
+    opacity: 0.3;
+}
+
+.recent .imgA {
+    position: relative;
+    opacity: 0.3;
+    margin-left: -20px;
+}
+
+.recent .imgB {
+    position: relative;
+    opacity: 0.3;
+    margin-top: -10px;
+}
+
+.recent .imgC {
+    position: relative;
+    opacity: 0.3;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+
+.recent1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.works {
+    position: relative;
+    margin-top: -500px;
+    margin-left: 80px;
+}
+
+.work1 {
+    position: relative;
+    border: 1px solid #393E46;
+    border-radius: 8px;
+    background-color: #393E46;
+    width: 250px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.work1 .flance404One {
+    width: 200px;
+    height: 120px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.work2 {
+    position: relative;
+    border: 1px solid #393E46;
+    border-radius: 8px;
+    background-color: #393E46;
+    width: 250px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.work2 .flance404One {
+    width: 200px;
+    height: 120px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.work3 {
+    position: relative;
+    border: 1px solid #393E46;
+    border-radius: 8px;
+    background-color: #393E46;
+    width: 250px;
+    height: 200px;
+    margin-right: 270px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.work3 .flance404One {
+    width: 200px;
+    height: 120px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.footer {
+    border-top: 1px solid #393E46;
+    height: 80px;
+}
+
+footer a {
+    color: #ECECEC;
+    text-decoration: none;
+}
+
+.wrappedCentre {
+    color: #959595;
+    width: 1150px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footerMenu li {
+	display:block;
+	float:left;
+}
+
+.footerMenu .footText {
+    padding-top: 30px;
+}
+
+.footerMenu .footerIcons {
+    padding-top: 20px;
+    float: right;
+}
+
+.footerMenu .footLink1 {
+    padding-right: 40px;   
+}
+
+.footerMenu .footLink2 {
+    padding-right: 40px;
+}
